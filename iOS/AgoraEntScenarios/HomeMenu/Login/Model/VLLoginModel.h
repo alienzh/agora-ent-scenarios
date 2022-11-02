@@ -26,6 +26,19 @@ NS_ASSUME_NONNULL_BEGIN
 
 //for sync manager
 @property (nonatomic, copy, nullable) NSString* objectId;
+
+@property (nonatomic) NSString *chat_uid;
+@property (nonatomic) NSString *rtc_uid;
+@property (nonatomic) NSString *channel_id;
+@property (nonatomic) NSString *im_token;
+@property (nonatomic) NSString *authorization;
+@property (nonatomic) BOOL hasVoiceRoomUserInfo;
+
+
+
+
+//给各个场景保留的扩展字段
+@property (nonatomic, strong, readonly) NSMutableDictionary* extraDic;
 @end
 
 NS_ASSUME_NONNULL_END

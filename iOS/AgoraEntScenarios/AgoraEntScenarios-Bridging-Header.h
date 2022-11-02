@@ -9,3 +9,6 @@
 #import "VLLoginModel.h"
 #import "VLRoomSelSongModel.h"
 #import "VLAPIRequest.h"
+#import "VLHomeItemView.h"
+#import "VLHomeItemModel.h"
+#import "VLLoginModel.h"
